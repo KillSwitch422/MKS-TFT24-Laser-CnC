@@ -1,7 +1,7 @@
 # MKS-TFT24-NEW-Theme
 New LCD pictures for TFT24 display from MAKERBASE-MKS specific for Laser cnc, using Grbl.
 
-(&#x1F534;):This is a work in progress!
+&#x1F534;:This is a work in progress!
 
 This repository contains a full set of customized source pictures for Makerbase MKS TFT24 Display and the bin files.
 
