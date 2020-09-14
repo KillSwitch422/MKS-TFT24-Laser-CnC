@@ -1,0 +1,127 @@
+#-------------------------------------------------------------
+#########  Carve type setting  ##################################
+#machine type setting(1:laser;2:CNC;)
+>cfg_machine_type:1
+
+#baud rate (9600:1; 57600:2; 115200:3; 250000:4)
+>cfg_baud_rate:3
+
+#multi-language(enable:1, disable:0)
+>cfg_multiple_language:0
+
+#languages setting(simplified (simplified Chinese:1; traditional Chinese:2; English:3; Russian:4; Spanish:5;French:6;Italian:7).
+#This configuration is valid when "cfg_multiple_language" is disabled.
+>cfg_language_type:3
+
+#-------------------------------------------------------------
+#########  Advanced Function Option  ##################################
+
+#enable UPS?(yes:1; no:0)
+>cfg_have_ups_device:0
+
+#enable power detecting module(mks 220det:1; mks pwc:0)
+>cfg_insert_det_module:0
+
+#enable auto off after print finish function (no:0; Yes:1£©
+>cfg_print_finish_close_Machine:0
+
+
+#---------------------------------------------------------------------------
+ 
+#############  WIFI Function  ##########################################
+
+#wifi model(MKS WIFI TFT:0;  MKS HLK-WIFI:1)
+>cfg_wifi_type:0
+
+#wifi mode(AP:1; STA:0)
+>cfg_wifi_mode:0
+
+#wifi name and password
+>cfg_wifi_ap_name:TP-LINK_C944
+
+>cfg_wifi_key_code:makerbase
+
+#0:disable cloud service 1:enable cloud service
+>cfg_cloud_enable:0
+#cloud service adress
+>cfg_wifi_cloud_host:www.noone.com
+#cloud service port
+>cfg_cloud_port:10086
+
+#Dynamic access IP
+>cfg_ip_dhcp_flag:1
+
+#IP/mask/gateway
+>cfg_ip_address:192.168.3.100
+>cfg_ip_mask:255.255.255.0
+>cfg_ip_gate:192.168.3.1
+
+#--------------------------------------------
+
+############## Function Customization #######################################
+
+#user-defined function1 and 2.(display this button .  disable: 0; enable: 1)
+>cfg_function_btn1_display:1
+
+#command of user-defined function
+>function_btn1_cmd:M84;
+
+
+#set number of  "More" button 
+>moreitem_pic_cnt:4
+
+#edit command for 1~4 "More" button,each command must be separated by semicolon ";"
+>moreitem_button1_cmd:M3;S1;G1 X0.1 F100;
+
+>moreitem_button2_cmd:G0 X50 Y50 F1000 ;M3;S1;G1 X100 Y100 F100;G1 X200 Y100;G1 X250 Y100;G1 X250 Y200;G1 X250 Y400;G1 X50 Y400; G1 X50 Y50 ;S0; G0 X0 Y0;
+
+>moreitem_button3_cmd:M03;S0;G1 X0 Y0 F100;
+
+>moreitem_button4_cmd:G0 X50 Y50 F1000 ;M3;S255;G1 X100 Y100 F100;
+
+
+
+#how many "More" button display on screen interface
+>morefunc_cnt:5
+
+#command setting on button1~5
+>morefunc1_cmd:G28;
+>morefunc2_cmd:G28;
+>morefunc3_cmd:G28;
+>morefunc4_cmd:G28;
+>morefunc5_cmd:G28;
+
+#---------------------------------------------
+##### Display Customization(button and logo customized see User's Manual) #######
+
+#the color of screen background
+>cfg_background_color:0x000000
+
+#the color of title text
+>cfg_title_color:0xFFFFFF
+
+#the color of temperature,fan,(etc) background
+>cfg_state_background_color:0x000000
+
+#the color of temprature,fan,(etc) text
+>cfg_state_text_color:0xFFFFFF
+
+#the color of file button
+>cfg_filename_background_color:0x000000
+
+#the color of file text
+>cfg_filename_color:0xFFFFFF
+
+#the color of background in printing 
+>cfg_printingstat_word_background_color:0x000000
+
+#the color of text in printing status
+>cfg_printingstat_word_color:0xFFFFFF
+
+#3D effects setting (disable: 0; enable: 1)
+>cfg_BUTTON_3D_effects:0
+
+#Screen rotation 180 ¡ã(0:disable,1:enable)
+>cfg_OVERTURN_180:0
+
+#-----------------------------------------------------------------------
