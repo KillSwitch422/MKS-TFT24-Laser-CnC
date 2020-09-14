@@ -71,13 +71,13 @@
 >moreitem_pic_cnt:4
 
 #edit command for 1~4 "More" button,each command must be separated by semicolon ";"
->moreitem_button1_cmd:M3;S1;G1 X0.1 F100;
+>moreitem_button1_cmd:M3;S1;G1 X0.1 F1000;
 
->moreitem_button2_cmd:G0 X50 Y50 F1000 ;M3;S1;G1 X100 Y100 F100;G1 X200 Y100;G1 X250 Y100;G1 X250 Y200;G1 X250 Y400;G1 X50 Y400; G1 X50 Y50 ;S0; G0 X0 Y0;
+>moreitem_button2_cmd:G0 X50 Y50 F1000 ;M3;S1;G1 X100 Y100 F1000;G1 X200 Y100;G1 X250 Y100;G1 X250 Y200;G1 X250 Y400;G1 X50 Y400; G1 X50 Y50 ;S0; G0 X0 Y0;
 
->moreitem_button3_cmd:M03;S0;G1 X0 Y0 F100;
+>moreitem_button3_cmd:M03;S0;G1 X0 Y0 F1000;
 
->moreitem_button4_cmd:G0 X50 Y50 F1000 ;M3;S255;G1 X100 Y100 F100;
+>moreitem_button4_cmd:G0 X50 Y50 F1000 ;M3;S255;G1 X100 Y100 F1000;
 
 
 
