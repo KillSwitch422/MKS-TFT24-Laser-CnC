@@ -12,6 +12,6 @@ This will enable the Laser @ S1 power and draw a test rectangle
 This will switch off the laser
 >moreitem_button3_cmd:M03;S0;G1 X0 Y0 F100;
 
-## &#x1F534 This will set the laser to full power &#x1F534
-## &#x1F534 Fire Hazard use with care &#x1F534
+## &#x1F534; This will set the laser to full power &#x1F534;
+## &#x1F534; Fire Hazard use with care &#x1F534;
 >moreitem_button4_cmd:G0 X50 Y50 F1000 ;M3;S255;G1 X100 Y100 F100;
