@@ -1,7 +1,5 @@
 # MKS-TFT24-NEW-Theme
-New Icon set for TFT24 display from MAKERBASE-MKS specific for Laser cnc, using Grbl.
-
-## &#x1F534; This is a work in progress! - The files are not correct yet &#x1F534;
+New red theme Icon set for TFT24 display from MAKERBASE-MKS specific for Laser cnc, using Grbl.
 
 This repository contains a full set of customized source pictures for Makerbase MKS TFT24 Display and the bin files.
 
