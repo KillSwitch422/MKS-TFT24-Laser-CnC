@@ -4,6 +4,7 @@ New Icon set for TFT24 display from MAKERBASE-MKS specific for Laser cnc, using 
 I have included custom function buttons, please use the attached config file for them to work correctly.
 
 This will enable the Laser @ S1 power for focusing purpose
+<img src="https://github.com/KillSwitch422/MKS-TFT24-Laser-CnC/blob/master/Source_Images/Focus.png" />
 >moreitem_button1_cmd:M3;S1;G1 X0.1 F100; 
 
 This will enable the Laser @ S1 power and draw a test rectangle
