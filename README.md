@@ -6,5 +6,6 @@ This repository contains a full set of customized source pictures for Makerbase 
 In the LCD directory you can find the LCD files (*.bin), ready for upload to the display flash memory. Please, follow the Makerbase manual.
 
 The Bin files are built using makerbase tft conversion software and the base icons are from Majurca theme.  
-- [MKS TFT software] (https://github.com/makerbase-mks/Software/tree/master/MKS%20TFT%20image%20convert)
-- [Majurca theme] (https://github.com/majurca/MKS-TFT28-NEW-PICTURES/tree/master/Source_Images)
+
+- [MKS TFT software](https://github.com/makerbase-mks/Software/tree/master/MKS%20TFT%20image%20convert)
+- [Majurca theme](https://github.com/majurca/MKS-TFT28-NEW-PICTURES/tree/master/Source_Images)
